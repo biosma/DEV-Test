@@ -1,3 +1,4 @@
+import Destiny from "./Destiny";
 import Offer from "./Offer";
 import "./styles/styles.css"
 function App() {
@@ -18,6 +19,11 @@ function App() {
           <a href="#">Carros</a>
         </nav>
         <Offer imagen="Madrid"/>
+        <div className="destiny-container">
+          <Destiny imagen="Dolomites-Italy"/>
+          <Destiny imagen="Hallstat-Austria"/>
+          <Destiny imagen="El Cervino-Suiza"/>
+        </div>
     </div>
   );
 }

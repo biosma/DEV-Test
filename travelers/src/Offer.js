@@ -19,11 +19,10 @@ function Offer({imagen}){
                 <li>Estadia</li>
                 <li>Tour Nocturno</li>
             </ul>
+            <button className="buy-button">Comprar</button>
         </div>
-        <button className="share-button"><i className="fa fa-share-nodes"></i></button>
-        <button className="add-button"><i className="fa fa-circle-plus"></i></button>
-        <button className="buy-button">Comprar</button>
-
+        <button className="share-button"><i className="fa fa-share-alt "></i></button>
+        <button className="add-button"><i className="fa fa-plus"></i></button>
     </div>
     );
  }
