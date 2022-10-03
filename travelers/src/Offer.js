@@ -1,4 +1,6 @@
 import React from "react";
+import mas  from "./styles/plus.png"
+import share from "./styles/cuota.png"
 function Offer({imagen}){
     const name = imagen.toString()
     const dias = "- 3 dias 2 noches"
@@ -21,8 +23,10 @@ function Offer({imagen}){
             </ul>
             <button className="buy-button">Comprar</button>
         </div>
-        <button className="share-button"><i className="fa fa-share-alt "></i></button>
-        <button className="add-button"><i className="fa fa-plus"></i></button>
+        <button className="img-share-button"><img className="img-share" alt="Share icon" src={share}></img></button>
+        <button className="img-mas-button"><img className="img-mas" alt="Add Icon" src={mas}></img></button>
+{/*         <button className="share-button"><i className="fa fa-share-alt "></i></button>
+        <button className="add-button"><i className="fa fa-plus"></i></button> */}
     </div>
     );
  }

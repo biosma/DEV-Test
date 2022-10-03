@@ -62,7 +62,7 @@ a{
     border-radius: 0px 50px 50px 0px;
     padding: 15px;
     }
-
+/* Comienzo del box de ofertas ----------------------------------------------------------- */
 .conteiner-card{
     width: 100%;
     margin-top: 40px;
@@ -136,7 +136,40 @@ i.fa-plus{
     margin-top: 30px;
     margin-bottom: 30px;
 }
-
+/* Comienzo del box de sugerencias ----------------------------------------------------------- */
+.nav-sugerencias{
+    display: flex;
+    justify-content: start;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    border-bottom: 1px solid black;
+    padding: 0;
+    margin-bottom: 15px;
+}
+.title-sugerencias{
+    display: flex;
+    justify-content: start;
+    align-content: center;
+    align-items: center;
+    width: 270px;
+    height: 60px;
+    margin-left: 45px;
+}
+.nav-sugerencias > a{
+    display: flex;
+    width: 270px;
+    height: 60px;
+    align-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.nav-sugerencias > a:hover{
+    width: 270px;
+    background-color: #F25C05;
+}
 .destiny-container{
     display: flex;
     flex-wrap: nowrap;
@@ -224,3 +257,4 @@ i.fa-plus{
     margin: 4px;
     margin-top: 8px;
 }
+/* Inicio de box de Experiencias ------------------------------------------------------------------ */
