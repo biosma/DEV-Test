@@ -19,6 +19,12 @@ function App() {
           <a href="#">Carros</a>
         </nav>
         <Offer imagen="Madrid"/>
+        <nav>
+          <h2 className="sugerencias">Sugerencias</h2>
+          <a href="#">Destinos</a>
+          <a href="#">Hospedajes</a>
+          <a href="#">Vuelos</a>
+        </nav>
         <div className="destiny-container">
           <Destiny imagen="Dolomites-Italy"/>
           <Destiny imagen="Hallstat-Austria"/>
