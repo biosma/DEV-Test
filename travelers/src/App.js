@@ -1,5 +1,6 @@
 import Destiny from "./Destiny";
 import Offer from "./Offer";
+import Exp from "./Exp";
 import "./styles/styles.css"
 function App() {
   return (
@@ -19,8 +20,8 @@ function App() {
           <a href="#">Carros</a>
         </nav>
         <Offer imagen="Madrid"/>
-        <nav className="nav-sugerencias">
-          <h2 className="title-sugerencias">Sugerencias</h2>
+        <nav className="nav-section">
+          <h2 className="title-nav">Sugerencias</h2>
           <a href="#">Destinos</a>
           <a href="#">Hospedajes</a>
           <a href="#">Vuelos</a>
@@ -30,6 +31,12 @@ function App() {
           <Destiny imagen="Hallstat-Austria"/>
           <Destiny imagen="El Cervino-Suiza"/>
         </div>
+        <nav className="nav-section">
+          <h2 className="title-nav">Experiencias</h2>
+          <a href="#">Amigos</a>
+          <a href="#">Expertos</a>
+        </nav>
+        <Exp imagenProfile="Joaquina" imagen="Hallstat-Austria"></Exp>
     </div>
   );
 }
