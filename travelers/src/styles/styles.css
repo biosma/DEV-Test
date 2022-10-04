@@ -257,15 +257,18 @@ ul > li {
 /* Inicio de box de Experiencias ------------------------------------------------------------------ */
 .box-exp{
     width: 100%;
-    margin-top: 40px;
     display: flex;
     position: relative;
     justify-content: center;
     flex-wrap: wrap;
+    border-bottom: #F25C05 1px solid;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .profile-container{
     width: 100%;
-    margin-left: 100px;
+    margin-left: 80px;
+    margin-bottom: 40px;
     display: flex;
     justify-content: left;
     align-items: flex-end;
@@ -281,30 +284,38 @@ ul > li {
 }
 .destiny-image{
     display: flex;
-    width: 770px;
-    height: 520px;
-    margin: 5px;
-    border-radius: 85px;
+    width: 600px; /* Es aprox el 43% */
+    height: 400px; /* Es aprox el 76% */
+    border-radius: 60px;
     border: none;
     box-shadow: 5px -1px 10px 0px rgba(0,0,0,0.4);
     -webkit-box-shadow: 5px -1px 10px 0px rgba(0,0,0,0.4);
     -moz-box-shadow: 5px -1px 10px 0px rgba(0,0,0,0.4);
 }
-.ubication-card, .airline-card, .hotel-card{
+.exp-div{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    width: 520px;
+}
+.ubication-card, .airline-card, .hotel-card, .price-card{
     background-color: transparent;
     display: flex;
-    max-height: 50px;
-    max-width: 50px;
-    border: none;
+    align-content: center;
+    align-items: center;
+    height: 50px;
+    width: 520px;
 }
 .img-gps, .img-airplane, .img-bed{
-    width: 50px;
+    width: 40px;
     height: 40px;
+    margin: 30px;
 }
+
 .buttons-exp{
     width: 100px;
     position: absolute;
     display: flex;
-    top: 10px;
-    right: 10px;
+    top: 175px;
+    right: 200px;
 }

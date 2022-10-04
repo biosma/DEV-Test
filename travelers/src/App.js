@@ -37,6 +37,7 @@ function App() {
           <a href="#">Expertos</a>
         </nav>
         <Exp imagenProfile="Joaquina" imagen="Hallstat-Austria"></Exp>
+        <Exp imagenProfile="Rodolfa" imagen="Dolomites-Italy"></Exp>
     </div>
   );
 }
