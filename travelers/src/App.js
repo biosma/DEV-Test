@@ -3,6 +3,8 @@ import Destiny from "./Destiny";
 import Offer from "./Offer";
 import Exp from "./Exp";
 import Footer from "./Footer"
+import flechaizq from "./styles/flecha-circulo-izquierda.png"
+import flechader from "./styles/flecha-circulo-derecha.png"
 import "./styles/styles.css";
 import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext } from 'pure-react-carousel';
 import "pure-react-carousel/dist/react-carousel.es.css";
@@ -29,11 +31,21 @@ function App() {
           naturalSlideHeight={600}
           totalSlides={3}
         >
+          <ButtonBack><img
+            className="slider-izq"
+            src={flechaizq}
+            alt={`icono flecha izquierda`}
+        /></ButtonBack>
           <Slider className="slider">
             <Slide className="slide"index={0}><Offer imagen="Madrid"/></Slide>
             <Slide className="slide"index={1}><Offer imagen="Dolomites-Italy"/></Slide>
             <Slide className="slide"index={2}><Offer imagen="El Cervino-Suiza"/></Slide>
           </Slider>
+        <ButtonNext><img
+            className="slider-der"
+            src={flechader}
+            alt={`icono flecha derecha`}
+        /></ButtonNext>
         </CarouselProvider>
       <nav className="nav-section">
         <h2 className="title-nav">Sugerencias</h2>
