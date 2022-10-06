@@ -1,13 +1,12 @@
 import React from "react";
 import mas  from "./styles/plus.png"
 import share from "./styles/cuota.png"
+
 function Destiny({imagen}){
     const name = imagen.toString()
     return ( 
     <div className="box-destiny">
         <div className="buttons-destiny">
-{/*             <button className="share-destiny-button"><i className="fa fa-share-alt "></i></button>
-            <button className="add-destiny-button"><i className="fa fa-plus"></i></button> */}
             <button className="img-share-button"><img className="img-share" alt="Share icon" src={share}></img></button>
             <button className="img-mas-button"><img className="img-mas" alt="Add Icon" src={mas}></img></button>
         </div>

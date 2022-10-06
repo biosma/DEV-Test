@@ -10,6 +10,7 @@ function Exp({imagenProfile, imagen}){
     const destiny = imagen.toString()
     return ( 
     <div className="box-exp">
+        <a  name="experiencia" id="experiencias"></a>
         <div className="profile-container">
             <img
                 className="profile-pic"
