@@ -23,8 +23,8 @@ function Offer({imagen}){
             </ul>
             <button className="buy-button">Comprar</button>
         </div>
-        <button className="img-share-button"><img className="img-share" alt="Share icon" src={share}></img></button>
-        <button className="img-mas-button"><img className="img-mas" alt="Add Icon" src={mas}></img></button>
+        <button className="img-share-button-offer"><img className="img-share-offer" alt="Share icon" src={share}></img></button>
+        <button className="img-mas-button-offer"><img className="img-mas-offer" alt="Add Icon" src={mas}></img></button>
     </div>
     );
  }
