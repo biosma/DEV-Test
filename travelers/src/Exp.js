@@ -4,6 +4,10 @@ import share from "./styles/cuota.png"
 import cama from "./styles/cama.png"
 import avion from "./styles/avion.png"
 import marker from "./styles/marker.png"
+import flechaizq from "./styles/flecha-circulo-izquierda.png"
+import flechader from "./styles/flecha-circulo-derecha.png"
+import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext } from 'pure-react-carousel';
+import "pure-react-carousel/dist/react-carousel.es.css";
 
 function Exp({imagenProfile, imagen}){
     const name = imagenProfile.toString()
@@ -19,6 +23,39 @@ function Exp({imagenProfile, imagen}){
             />
             <h2 className="profile-name">{name}</h2>
         </div>
+{/*         <CarouselProvider className='slider-prov-exp'
+          naturalSlideWidth={600}
+          naturalSlideHeight={400}
+          totalSlides={3}
+        >
+          <ButtonBack><img
+            className="slider-izq-exp"
+            src={flechaizq}
+            alt={`icono flecha izquierda`}
+        /></ButtonBack>
+          <Slider className="slider">
+            <Slide className="slide"index={0}><img
+            className="destiny-image"
+            src={`./images/${imagen}.jpg`}
+            alt={`Foto de ${imagen}`}
+        /></Slide>
+            <Slide className="slide"index={1}><img
+            className="destiny-image"
+            src={`./images/${imagen}.jpg`}
+            alt={`Foto de ${imagen}`}
+        /></Slide>
+            <Slide className="slide" index={2}><img
+            className="destiny-image"
+            src={`./images/${imagen}.jpg`}
+            alt={`Foto de ${imagen}`}
+        /></Slide>
+          </Slider>
+        <ButtonNext><img
+            className="slider-der-exp"
+            src={flechader}
+            alt={`icono flecha derecha`}
+        /></ButtonNext>
+        </CarouselProvider> */}
         <img
             className="destiny-image"
             src={`./images/${imagen}.jpg`}
