@@ -54,9 +54,33 @@ function App() {
         <a href="#">Vuelos</a>
       </nav>
       <div className="destiny-container">
-        <Destiny imagen="Dolomites-Italy"/>
+        {/* <Destiny imagen="Dolomites-Italy"/>
         <Destiny imagen="Hallstat-Austria"/>
-        <Destiny imagen="El Cervino-Suiza"/>
+        <Destiny imagen="El Cervino-Suiza"/> */}
+        <CarouselProvider className='slider-prov-exp'
+        naturalSlideWidth={600}
+        naturalSlideHeight={400}
+        totalSlides={6}
+        >
+        <ButtonBack><img
+          className="slider-izq-exp"
+          src={flechaizq}
+          alt={`icono flecha izquierda`}
+        /></ButtonBack>
+        <Slider>
+          <Slide  index={0}><Destiny imagen="Dolomites-Italy"/></Slide>
+          <Slide  index={1}><Destiny imagen="Hallstat-Austria"/></Slide>
+          <Slide  index={2}><Destiny imagen="El Cervino-Suiza"/></Slide>
+          <Slide  index={3}><Destiny imagen="Dolomites-Italy"/></Slide>
+          <Slide  index={4}><Destiny imagen="Hallstat-Austria"/></Slide>
+          <Slide  index={5}><Destiny imagen="El Cervino-Suiza"/></Slide>
+        </Slider>
+        <ButtonNext><img
+          className="slider-der-exp"
+          src={flechader}
+          alt={`icono flecha derecha`}
+        /></ButtonNext>
+</CarouselProvider>
       </div>
       <nav className="nav-section">
         <h2 className="title-nav">Experiencias</h2>
