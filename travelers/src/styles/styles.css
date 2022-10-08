@@ -99,7 +99,6 @@ a{
     left: 4em;
     top: -2em;
     justify-content: start;
-    
 }
 .slider-prov{
     position: relative;
@@ -243,16 +242,42 @@ ul > li {
     background-color: #F25C05;
     color: white;
 }
+/* Comienzo del carousel de sugerencias ----------------------------------------------------------- */
 
 .destiny-container{
-    display: flex;
-    flex-wrap: nowrap;
-    align-content: center;
-    justify-content: space-evenly;
+    max-width: 100%;
+    margin: auto;
+    position: relative;
+}
+.carousel__slider {
+    margin-top: 5%;
+    padding-left: 5%;
+  }
+.slider-prov-destiny {
+    text-align: center;
+    margin: auto;
+  }
+.slider-der-button, .slider-izq-button{
+    border: none;
+}
+.slider-der-destiny, .slider-izq-destiny{
+    position: absolute;
+    border: none;
+    width: 55px;
+    height: 55px;
+    top: 50%;
+}
+.slider-der-destiny{
+    right: 3%;
+    z-index: 2;
+}
+.slider-izq-destiny{
+    left: 3%;
+    z-index: 2;
 }
 .box-destiny{
-    width: 300px;
-    height: 420px;
+    width: 364px;
+    height: 502px;
     display: flex;
     flex-wrap: wrap;
     position: relative;
@@ -262,8 +287,10 @@ ul > li {
     -webkit-border-radius: 25px;
     -moz-border-radius: 25px;
     align-content: center;
-    justify-content: center;
+    justify-content: start;
+    z-index: 1;
 }
+
 .image-destiny{
     width: 280px;
     height: 295px;
@@ -343,7 +370,7 @@ ul > li {
     position: absolute;
     width: 55px;
     height: 55px;
-    top: 45%;
+    top: 50%;
 }
 .profile-container{
     width: 100%;
@@ -366,8 +393,8 @@ ul > li {
 }
 .destiny-image{
     display: flex;
-    width: 600px; 
-    height: 400px; 
+    width: 600px; /* Es aprox el 43% */
+    height: 400px; /* Es aprox el 76% */
     border-radius: 60px;
     -webkit-border-radius: 60px;
     -moz-border-radius: 60px;
@@ -375,17 +402,6 @@ ul > li {
     box-shadow: 5px -1px 10px 0px rgba(0,0,0,0.4);
     -webkit-box-shadow: 5px -1px 10px 0px rgba(0,0,0,0.4);
     -moz-box-shadow: 5px -1px 10px 0px rgba(0,0,0,0.4);
-}
-.conteiner-card{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    flex-wrap: wrap;
-    margin-top: 4em;
 }
 .exp-div{
     display: flex;
