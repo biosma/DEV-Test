@@ -364,13 +364,32 @@ ul > li {
     padding-bottom: 50px;
 }
 .slider-prov-exp{
-    position: relative;
+    width: 800px;
+    height: 400px;
+    margin-bottom: 50px;
+    transform: translate(15%, -15%);
+}
+
+.exp-button-izq, .exp-button-der{
+    border: none;
+    z-index: 2;
+}
+.slide-exp{
+    z-index: 1;
 }
 .slider-der-exp, .slider-izq-exp{
     position: absolute;
     width: 55px;
     height: 55px;
-    top: 50%;
+    top: 55%;
+    z-index: 2;
+}
+.slider-izq-exp{
+    left: 2%;
+}
+
+.slider-der-exp{
+    right: 15%;
 }
 .profile-container{
     width: 100%;
@@ -402,6 +421,7 @@ ul > li {
     box-shadow: 5px -1px 10px 0px rgba(0,0,0,0.4);
     -webkit-box-shadow: 5px -1px 10px 0px rgba(0,0,0,0.4);
     -moz-box-shadow: 5px -1px 10px 0px rgba(0,0,0,0.4);
+    margin: 10px;
 }
 .exp-div{
     display: flex;

@@ -23,44 +23,44 @@ function Exp({imagenProfile, imagen}){
             />
             <h2 className="profile-name">{name}</h2>
         </div>
-{/*         <CarouselProvider className='slider-prov-exp'
+        <CarouselProvider className='slider-prov-exp'
           naturalSlideWidth={600}
           naturalSlideHeight={400}
           totalSlides={3}
         >
-          <ButtonBack><img
+          <ButtonBack className="exp-button-izq"><img
             className="slider-izq-exp"
             src={flechaizq}
             alt={`icono flecha izquierda`}
         /></ButtonBack>
-          <Slider className="slider">
-            <Slide className="slide"index={0}><img
+          <Slider className="slider-exp">
+            <Slide className="slide-exp"index={0}><img
             className="destiny-image"
             src={`./images/${imagen}.jpg`}
             alt={`Foto de ${imagen}`}
         /></Slide>
-            <Slide className="slide"index={1}><img
+            <Slide className="slide-exp"index={1}><img
             className="destiny-image"
             src={`./images/${imagen}.jpg`}
             alt={`Foto de ${imagen}`}
         /></Slide>
-            <Slide className="slide" index={2}><img
+            <Slide className="slide-exp" index={2}><img
             className="destiny-image"
             src={`./images/${imagen}.jpg`}
             alt={`Foto de ${imagen}`}
         /></Slide>
           </Slider>
-        <ButtonNext><img
+        <ButtonNext className="exp-button-der"><img
             className="slider-der-exp"
             src={flechader}
             alt={`icono flecha derecha`}
         /></ButtonNext>
-        </CarouselProvider> */}
-        <img
+        </CarouselProvider>
+        {/* <img
             className="destiny-image"
             src={`./images/${imagen}.jpg`}
             alt={`Foto de ${imagen}`}
-        />
+        /> */}
         <div className="exp-div">
             <p className="exp-title">Visitando {destiny}</p>
             <p className="price-card">$8.000,00</p>
