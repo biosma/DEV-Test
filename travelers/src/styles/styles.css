@@ -24,7 +24,7 @@ header{
     justify-content: space-between;
 }
 
-nav{
+.nav-header{
     height: 11.2%;
     display: flex;
     margin-top: 2.9%;
@@ -107,7 +107,6 @@ a{
     z-index: 1;
 }
 .slider-izq, .slider-der{
-    width: 3.82vw;
     height: 8.02vh;
     position: absolute;
     top: 50%;
@@ -136,10 +135,8 @@ a{
 .img-share-button-offer{
     background-color: transparent;
     position: absolute;
-    max-height: 50px;
-    min-height: 50px;
-    max-width: 50px;
-    min-width: 50px;
+    width: 50px;
+    height: 50px;
     border: none;
 }
 .img-share-offer{
@@ -152,10 +149,8 @@ a{
     align-items: center;
     justify-content: center;
     position: absolute;
-    max-height: 50px;
-    min-height: 50px;
-    max-width: 50px;
-    min-width: 50px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;    
@@ -201,6 +196,7 @@ ul > li {
     height: 7.85vh;
     display: block;
     border: none;
+    font-size: 1rem;
     border-radius: 50px;
     -webkit-border-radius: 50px;
     -moz-border-radius: 50px;
@@ -210,29 +206,29 @@ ul > li {
     margin-bottom: 30px;
 }
 /* Comienzo del box de sugerencias ----------------------------------------------------------- */
+
 .nav-section{
+    width: 96%;
     display: flex;
     justify-content: start;
     align-content: center;
     align-items: center;
-    width: 100%;
     border-bottom: 1px solid black;
     padding: 0;
-    margin-bottom: 15px;
+    margin: 0px auto;
 }
 .title-nav{
     display: flex;
-    justify-content: start;
+    justify-content: center;
     align-content: center;
     align-items: center;
-    width: 270px;
-    height: 60px;
-    margin-left: 45px;
+    width: 20.21vw;
+    height: 11.36vh;
 }
 .nav-section > a{
     display: flex;
-    width: 270px;
-    height: 60px;
+    width: 20.21vw;
+    height: 11.36vh;
     align-content: center;
     align-items: center;
     justify-content: space-evenly;
@@ -240,7 +236,7 @@ ul > li {
     border-top-right-radius: 25px;
 }
 .nav-section > a:hover{
-    width: 270px;
+    width: 20.21vw;
     background-color: #F25C05;
     color: white;
 }
@@ -252,8 +248,7 @@ ul > li {
     position: relative;
 }
 .carousel__slider {
-    margin-top: 5%;
-    padding-left: 5%;
+    padding-left: 6%;
   }
 .slider-prov-destiny {
     text-align: center;
@@ -265,21 +260,20 @@ ul > li {
 .slider-der-destiny, .slider-izq-destiny{
     position: absolute;
     border: none;
-    width: 55px;
-    height: 55px;
+    height: 10.4vh;
     top: 50%;
 }
 .slider-der-destiny{
-    right: 3%;
+    right: 3.97%;
     z-index: 2;
 }
 .slider-izq-destiny{
-    left: 3%;
+    left: 3.97%;
     z-index: 2;
 }
 .box-destiny{
-    width: 364px;
-    height: 502px;
+    width: 25.27vw;
+    height: 95.07vh;
     display: flex;
     flex-wrap: wrap;
     position: relative;
@@ -294,8 +288,8 @@ ul > li {
 }
 
 .image-destiny{
-    width: 280px;
-    height: 295px;
+    width: 23.68vw;
+    height: 55.87vh;
     border-radius: 25px 25px 0px 0px;
     -webkit-border-radius: 25px 25px 0px 0px;
     -moz-border-radius: 25px 25px 0px 0px;
@@ -343,16 +337,27 @@ ul > li {
 }
 
 .description-destiny-div{
-    width: 270px;
+    width: 23.68vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: end;
+}
+.title-destiny-card{
+    width: 100%;
+    display: flex;
+    justify-content: start;
 }
 .description-destiny-card{
+    text-align: start;
     font-size: 11px;
-    margin: 4px;
-}
-.card-destiny-name{
-    font-size: 16px;
-    margin: 4px;
     margin-top: 8px;
+    margin-bottom: 8px;
+}
+.rating-destiny-card{
+    display: flex;
+    align-content: flex-end
 }
 /* Inicio de box de Experiencias ------------------------------------------------------------------ */
 .box-exp{
@@ -366,8 +371,8 @@ ul > li {
     padding-bottom: 50px;
 }
 .slider-prov-exp{
-    width: 800px;
-    height: 400px;
+    width: 58.82vw;
+    height: 75.75vh;
     margin-bottom: 50px;
     transform: translate(15%, -15%);
 }
@@ -383,7 +388,7 @@ ul > li {
     position: absolute;
     width: 55px;
     height: 55px;
-    top: 55%;
+    top: 50%;
     z-index: 2;
 }
 .slider-izq-exp{
@@ -391,7 +396,7 @@ ul > li {
 }
 
 .slider-der-exp{
-    right: 15%;
+    right: 13%;
 }
 .profile-container{
     width: 100%;
@@ -414,8 +419,8 @@ ul > li {
 }
 .destiny-image{
     display: flex;
-    width: 600px; /* Es aprox el 43% */
-    height: 400px; /* Es aprox el 76% */
+    width: 43.85vw; /* Es aprox el 43% */
+    height: 75.75vh; /* Es aprox el 76% */
     border-radius: 60px;
     -webkit-border-radius: 60px;
     -moz-border-radius: 60px;
@@ -428,16 +433,16 @@ ul > li {
 .exp-div{
     display: flex;
     flex-wrap: wrap;
-    margin: 20px;
-    width: 520px;
+    margin: 1.47%;
+    width: 38.23vw;
 }
 .ubication-card, .airline-card, .hotel-card, .price-card{
     background-color: transparent;
     display: flex;
     align-content: center;
     align-items: center;
-    height: 50px;
-    width: 520px;
+    height: 9.47vh;
+    width: 38.23vw;
 }
 .img-gps, .img-airplane, .img-bed{
     width: 40px;
@@ -460,13 +465,18 @@ footer{
     color: #FFFFFF;
     flex-wrap: wrap;
     padding: 30px;
-    justify-content:space-between;
+    justify-content: space-between;
 }
 .footer-title{
     font-family:'GoldmanSans-A-Md';
-    width: 300px;
+    width: 10.69vw;
     font-weight: 800;
     font-size: 30px;
+}
+.footer-sections{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
 }
 section{
     display: flex;

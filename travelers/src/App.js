@@ -16,7 +16,7 @@ function App() {
         <h1>Travelers</h1>
         <span className="profile"><img src="" alt="Profile Imagen"></img></span>
       </header>
-      <nav>
+      <nav className='nav-header'>
           <a href="#experiencia">Experiencias</a>
           <a href="#">Alojamiento</a>
           <div className="contenedor-searchbar">

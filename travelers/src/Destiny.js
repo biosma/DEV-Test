@@ -16,7 +16,7 @@ function Destiny({imagen}){
             alt={`Foto de ${imagen}`}
         />
         <div className="description-destiny-div">
-            <h2 className="destiny-card">{name}</h2>
+            <h2 className="title-destiny-card">{name}</h2>
             <p className="description-destiny-card">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget felis nunc. Vestibulum...</p>
             <p className="rating-destiny-card"><i className="fa fa-star"></i>4.3</p>    
         </div>
