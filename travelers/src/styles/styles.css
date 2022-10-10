@@ -17,31 +17,34 @@ body{
 }
 
 header{
+    height: 8.3%;
     display: flex;
     background-color: #f25c05;
     color: #FFFFFF;
     justify-content: space-between;
-
 }
 
 nav{
+    height: 11.2%;
     display: flex;
-    padding: 18px;
-    margin-top: 30px;
+    margin-top: 2.9%;
+    margin-left: 6.95%;
+    margin-right:  6.95%;
     justify-content: space-evenly;
+    
 }
 h1{
     font-family: "GoldmanSans-A-Md";
-    margin-left: 60px;
-    padding: 5px
+    margin-left: 6.95%;
+    font-size: 2.4em;
 }
 a{
     text-decoration: none;
     color: #000000;
 }
 .contenedor-searchbar{
-    width: 300px;
-    height:  19px;
+    width: 27.7%;
+    height:  7.57%;
     margin: 0;
     background-color: #f8f8f8;
     vertical-align: middle;
@@ -52,29 +55,29 @@ a{
     -moz-border-radius: 50px;
 }
 #search{
-  background: #F8F8F8;
-  border: none;
-  width: 100%;
-  font-size: 10pt;
-  float: left;
-  border-radius: 50px;
-  -webkit-border-radius: 50px;
-  -moz-border-radius: 50px;
-  color: #63717f;
-  padding: 5px;
-  padding-left: 45px;
+    width: 100%;
+    background: #F8F8F8;
+    border: none;
+    font-size: 10pt;
+    float: left;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    color: #63717f;
+    padding: 5px;
+    padding-left: 45px;
 }
 
 .icon{
-    width: 37.5px;
-    height:  19px;
+    width: 14.75%;
+    height:  100%;
     display: flex;
     justify-content: center;
     align-items: center;
     color: #FFFFFF;
     background-color: #000000;
     position: absolute;
-    left: 262.5px;
+    right: 0;
     border-radius: 0px 50px 50px 0px;
     -webkit-border-radius: 0px 50px 50px 0px;
     -moz-border-radius: 0px 50px 50px 0px;
@@ -91,29 +94,30 @@ a{
     align-items: center;
     align-content: center;
     flex-wrap: wrap;
-    margin-top: 4em;
 }
 .offers-card{
     display: flex;
     position: absolute;
-    left: 4em;
-    top: -2em;
+    left: 13.12%;
+    top: 3.69%;
     justify-content: start;
 }
 .slider-prov{
     position: relative;
+    z-index: 1;
 }
 .slider-izq, .slider-der{
-    width: 55px;
-    height: 55px;
+    width: 3.82vw;
+    height: 10vh;
     position: absolute;
     top: 50%;
+    z-index: 2;
 }
 .slider-izq{
-    left: 60px;
+    left: 6.94%;
 }
 .slider-der{
-    right: 60px;
+    right: 6.94%;
 }
 .image-card{
     display: flex;
@@ -128,8 +132,6 @@ a{
     -webkit-box-shadow: 5px -1px 10px 0px rgba(0,0,0,0.4);
     -moz-box-shadow: 5px -1px 10px 0px rgba(0,0,0,0.4);
 }
-
-
 
 .img-share-button-offer{
     background-color: transparent;
@@ -173,7 +175,7 @@ a{
 }
 
 .description-div{
-    width: 25%;
+    width: 27.77%;
     display: flex;
     flex-wrap: wrap;
     align-content: center;
@@ -196,7 +198,7 @@ ul > li {
 
 .buy-button{
     width: 100%;
-    height: 45px;
+    height: 7.85vh;
     display: block;
     border: none;
     border-radius: 50px;
