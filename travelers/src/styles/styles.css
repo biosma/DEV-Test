@@ -286,7 +286,7 @@ ul > li {
     border-radius: 25px;
     -webkit-border-radius: 25px;
     -moz-border-radius: 25px;
-    justify-content: start;
+    justify-content: center;
     z-index: 1;
 }
 
@@ -374,7 +374,7 @@ ul > li {
     padding-bottom: 50px;
 }
 .slider-prov-exp{
-    width: 58.82vw;
+    width: 52.69vw;
     height: 75.75vh;
     margin-bottom: 50px;
     transform: translate(15%, -15%);
@@ -395,11 +395,11 @@ ul > li {
     z-index: 2;
 }
 .slider-izq-exp{
-    left: 2%;
+    left: -2%;
 }
 
 .slider-der-exp{
-    right: 13%;
+    right: -2%;
 }
 .profile-container{
     width: 100%;
@@ -422,8 +422,8 @@ ul > li {
 }
 .destiny-image{
     display: flex;
-    width: 43.85vw; /* Es aprox el 43% */
-    height: 75.75vh; /* Es aprox el 76% */
+    width: 50.69vw;
+    height: 75.75vh;
     border-radius: 60px;
     -webkit-border-radius: 60px;
     -moz-border-radius: 60px;
@@ -436,7 +436,8 @@ ul > li {
 .exp-div{
     display: flex;
     flex-wrap: wrap;
-    margin: 1.47%;
+    margin-left: 8%;
+    height: 75.75vh;
     width: 38.23vw;
 }
 .ubication-card, .airline-card, .hotel-card, .price-card{
@@ -444,7 +445,6 @@ ul > li {
     display: flex;
     align-content: center;
     align-items: center;
-    height: 9.47vh;
     width: 38.23vw;
 }
 .img-gps, .img-airplane, .img-bed{
