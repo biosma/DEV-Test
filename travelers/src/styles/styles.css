@@ -243,7 +243,8 @@ ul > li {
 /* Comienzo del carousel de sugerencias ----------------------------------------------------------- */
 
 .destiny-container{
-    max-width: 100%;
+    width: 100vw;
+    height: 100vh;
     margin: auto;
     position: relative;
 }
@@ -271,8 +272,8 @@ ul > li {
     z-index: 2;
 }
 .box-destiny{
-    width: 25.27vw;
-    height: 95.07vh;
+    width: 25vw;
+    height: 95vh;
     display: flex;
     flex-wrap: wrap;
     position: relative;
@@ -286,7 +287,7 @@ ul > li {
 }
 
 .image-destiny{
-    width: 23.68vw;
+    width: 24vw;
     height: 55.87vh;
     border-radius: 25px 25px 0px 0px;
     -webkit-border-radius: 25px 25px 0px 0px;
