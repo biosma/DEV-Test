@@ -251,7 +251,6 @@ ul > li {
     padding-left: 6%;
   }
 .slider-prov-destiny {
-    text-align: center;
     margin: auto;
   }
 .slider-der-button, .slider-izq-button{
@@ -282,7 +281,6 @@ ul > li {
     border-radius: 25px;
     -webkit-border-radius: 25px;
     -moz-border-radius: 25px;
-    align-content: center;
     justify-content: start;
     z-index: 1;
 }
