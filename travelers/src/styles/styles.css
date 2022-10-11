@@ -248,9 +248,9 @@ ul > li {
     margin: auto;
     position: relative;
 }
-.carousel__slider {
-    padding-left: 6%;
-  }
+/* .carousel__slider {
+    
+  } */
 .slider-prov-destiny {
     margin: auto;
   }
@@ -270,6 +270,10 @@ ul > li {
 .slider-izq-destiny{
     left: 3.97%;
     z-index: 2;
+}
+.slider-destiny{
+    overflow: visible;
+    padding-left: 6%;
 }
 .box-destiny{
     width: 25.27vw;
