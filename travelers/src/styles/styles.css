@@ -272,8 +272,8 @@ ul > li {
     z-index: 2;
 }
 .box-destiny{
-    width: 25vw;
-    height: 95vh;
+    width: 25.27vw;
+    height: 73.07vh;
     display: flex;
     flex-wrap: wrap;
     position: relative;
@@ -287,8 +287,8 @@ ul > li {
 }
 
 .image-destiny{
-    width: 24vw;
-    height: 55.87vh;
+    width: 23.68vw;
+    height: 47.88vh;
     border-radius: 25px 25px 0px 0px;
     -webkit-border-radius: 25px 25px 0px 0px;
     -moz-border-radius: 25px 25px 0px 0px;
