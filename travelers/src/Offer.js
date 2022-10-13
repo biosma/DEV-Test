@@ -15,7 +15,7 @@ function Offer({imagen}){
         <div className="description-div">
             <p className="description-card">{name} {dias}</p>
             <p className="price-card">$2.000,00</p>
-            <p className="rating-card"><i className="fa fa-star"></i>4.3</p>    
+            <p id="rating-card"><i className="fa fa-star"></i>4.3</p>    
             <ul className="features-card">
                 <li>Boleto de avión ida y vuelta</li>
                 <li>Estadia</li>
