@@ -636,6 +636,7 @@ section > a{
         width: 337px;
         height: 140px;
         background-color: #2d0a11;
+        margin-left: 0;
         display: flex;
         flex-wrap: wrap;
         align-content: center;
@@ -843,6 +844,7 @@ section > a{
         object-fit: cover;
         margin: 0;
         margin-bottom: 10px;
+        margin-top: 8px;
     }
     .buttons-destiny{
         width: 100px;
