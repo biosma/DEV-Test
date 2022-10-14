@@ -24,7 +24,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>Travelers</h1>
-        <span className="profile"><img src="" alt="Profile Imagen"></img></span>
+        <span className="profile"><img className="profile-img" src="./images/Joaquina.jpg" alt="Profile Imagen"></img></span>
       </header>
       <nav className='nav-header'>
           <a href="#experiencia">Experiencias</a>

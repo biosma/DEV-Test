@@ -21,7 +21,11 @@ header{
     color: #FFFFFF;
     justify-content: space-between;
 }
-
+.profile-img{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+}
 .nav-header{
     height: 94px;
     display: flex;
@@ -655,6 +659,7 @@ section > a{
         z-index: 2;
     }
     .slider{
+        margin-left: 7.5px;
         overflow-y: visible;
         overflow-x: hidden;
     }
@@ -886,11 +891,13 @@ section > a{
     .description-destiny-div{
         width: 200px;
         height: 63.85px;
+        margin-left: 10px;
         display: flex;
         flex-wrap: wrap;
         align-items: center;
         align-content: center;
         justify-content: space-around;
+        justify-content: end;
     }
     .title-destiny-card{
         width: 100%;
@@ -904,8 +911,9 @@ section > a{
         font-size: 11px;
     }
     .rating-destiny-card{
+        width: 50%;
         display: flex;
-        align-content: flex-end;
+        align-items: flex-start;
         font-size: 11px;
         margin-bottom: 13px;
     }
