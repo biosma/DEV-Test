@@ -22,9 +22,12 @@ header{
     justify-content: space-between;
 }
 .profile-img{
-    width: 55px;
-    height: 55px;
+    width: 45px;
+    height: 45px;
     border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    right: 66.85px;
 }
 .nav-header{
     height: 94px;
@@ -535,6 +538,14 @@ section > a{
         font-family: "GoldmanSans-A-Md";
         margin-left: 37px;
         position: relative;
+    }
+    .profile-img{
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        object-fit: cover;
+        position: absolute;
+        right: 22px;
     }
     .contenedor-searchbar{
         width: 161px;
