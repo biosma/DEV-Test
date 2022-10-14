@@ -437,7 +437,7 @@ ul > li {
 }
 .profile-pic{
     width: 74px;
-    height: 100px;
+    height: 74px;
     object-fit: cover;
     border-radius: 50%;
     -webkit-border-radius: 50%;
