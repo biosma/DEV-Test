@@ -21,13 +21,18 @@ header{
     color: #FFFFFF;
     justify-content: space-between;
 }
+
+.profile{
+    display: flex;
+    align-items: flex-end;
+    position: absolute;
+    right: 66.85px;
+}
 .profile-img{
     width: 45px;
     height: 45px;
     border-radius: 50%;
     object-fit: cover;
-    position: absolute;
-    right: 66.85px;
 }
 .nav-header{
     height: 94px;
@@ -539,13 +544,18 @@ section > a{
         margin-left: 37px;
         position: relative;
     }
-    .profile-img{
-        width: 45px;
-        height: 45px;
-        border-radius: 50%;
-        object-fit: cover;
+    .profile{
+        display: flex;
+        align-items: flex-end;
+        justify-content: end;
         position: absolute;
         right: 22px;
+    }
+    .profile-img{
+        width: 38px;
+        height: 38px;
+        border-radius: 50%;
+        object-fit: cover;
     }
     .contenedor-searchbar{
         width: 161px;
